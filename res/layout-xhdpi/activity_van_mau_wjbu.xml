@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:background="@drawable/bg"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="74dp"
+        android:layout_marginTop="181dp"
+        android:layout_marginEnd="74dp"
+        android:layout_marginBottom="733dp"
+        android:gravity="center"
+        android:text="Văn mẫu Wibu"
+        android:textColor="@android:color/white"
+        android:textSize="35sp" />
+
+    <ListView
+        android:id="@+id/listWjbu"
+        android:layout_width="448dp"
+        android:layout_height="537dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="68dp"
+        android:layout_marginEnd="68dp"
+        android:layout_marginBottom="50dp">
+
+    </ListView>
+</RelativeLayout>

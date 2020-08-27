@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    android:padding="10dp"
+    tools:context=".inside_van_mau_wjbu">
+
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="575dp"
+        android:layout_above="@+id/buttonCopy1"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="57dp"
+        android:layout_marginTop="71dp"
+        android:layout_marginEnd="57dp"
+        android:layout_marginBottom="192dp">
+
+        <TextView
+            android:id="@+id/text3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:text="Text View"
+            android:textSize="20sp"
+            android:textStyle="bold">
+
+        </TextView>
+    </ScrollView>
+
+    <Button
+        android:id="@+id/buttonCopy1"
+        android:layout_width="220dp"
+        android:layout_height="31dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="155dp"
+        android:layout_marginEnd="155dp"
+        android:layout_marginBottom="83dp"
+        android:text="Copy" />
+    <com.google.android.gms.ads.AdView
+        android:id="@+id/adView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        app:adSize="BANNER"
+        app:adUnitId="ca-app-pub-9301082215272747/6320010583">
+    </com.google.android.gms.ads.AdView>
+</RelativeLayout>
